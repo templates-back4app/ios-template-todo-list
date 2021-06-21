@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  Todo_List_Back4app
 //
-//  Created by Lucas Fraga Schuler on 6/16/21.
 //
 
 import UIKit

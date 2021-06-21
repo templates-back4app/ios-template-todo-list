@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  Todo_List_Back4app
 //
-//  Created by Lucas Fraga Schuler on 6/16/21.
 //
 
 import UIKit
@@ -17,6 +16,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         self.retrieveAllItens()
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.systemBlue
+        self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+
+
     }
     
     func retrieveAllItens(){

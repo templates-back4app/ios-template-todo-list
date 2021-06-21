@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  Todo_List_Back4app
 //
-//  Created by Lucas Fraga Schuler on 6/16/21.
-//
 
 import UIKit
 import Parse
@@ -13,7 +11,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
         let parseConfig = ParseClientConfiguration {
             $0.applicationId = "PASTE_YOUR_APPLICATION_ID_HERE"
